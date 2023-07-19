@@ -20,7 +20,7 @@ module "example_namespace" {
     team        = "devops"
   }
 }
-
+```
 
 
 
