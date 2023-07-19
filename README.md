@@ -39,6 +39,7 @@ module "example_namespace" {
 | labels        | map(string)       | no      |         | Labels to apply to the namespace |
 | annotations | map(string)     | yes      |         | Annotations to apply to the namespace |
 | resources       | list(string)       | no      |         | List of resources this resource can access |
+|-------------------------------------------------------------------------------------------------------|
 
 ## Outputs
 
