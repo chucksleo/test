@@ -11,7 +11,7 @@ This Terraform module creates namespace for Kubernetes within SAIC.
 
 
 ## Usage
-
+```hcl
 module "example_namespace" {
   source        = "./terraform-kubernetes-namespace"
   namespace_name = "namespace"
