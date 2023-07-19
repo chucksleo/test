@@ -46,8 +46,3 @@ module "example_namespace" {
 |--------------------|----------------------------------------------|
 | namespace_name  | The name of the namespace           |      |
 
-
------------------------------------------------------------
-output "namespace_name" {
-  value = kubernetes_namespace.namespace.metadata.name
-}
